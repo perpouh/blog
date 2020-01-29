@@ -6,7 +6,7 @@
 屋号としての正式名は「架空会社ぱあぷう」。  
 フリーランス時代に仕事をくれた自営業氏に「馬鹿とか間抜けとかグズとか愚鈍とかそういう意味合いで柔らかい印象の言葉はないか？」と訊ねたところ、「ぱあぷう」という言葉を教えていただき、採用。
 
-<img :src="$withBase('/images/strengthfinder.jpg')" alt="クリフトストレングス・テスト">
+<img :src="$withBase('/assets/img/strengthfinder.jpg')" alt="クリフトストレングス・テスト">
 
 [クリフトストレングス・テスト](https://www.gallup.com/cliftonstrengths/ja/253661/CliftonStrengths.aspx)  
 知識欲極振り・対人能力ほぼ皆無の典型的なオタク型です。
