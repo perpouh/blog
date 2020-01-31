@@ -101,3 +101,30 @@ module.exports = {
     ]
   }
 ```
+
+## リンクカード作成
+
+ポートフォリオ的に活用していくにあたり、githubリポジトリをカード風に表示するコンポーネントがほしくなりました。作ります。  
+ソースは`.vuepress/components/LinkCard.vue` です。
+
+`config.js`
+```javascript
+module.exports = {
+  plugins: [
+    'register-components',
+    {
+      componentsDir: './components'
+    }
+  ]
+}
+```
+
+間違えてthemeConfigの中に書いてても動いたのでよくわからない。
+
+TODO: [ukyoda/ogpParser - github](https://github.com/ukyoda/ogpParser)
+
+### 参考
+
+[register-components - Vue(公式ドキュメント)](https://vuepress.vuejs.org/plugin/official/plugin-register-components.html)  
+[VuePressの基本ディレクトリ構成を理解する config/routing/components/theme - Qiita](https://qiita.com/Gma_Gama/items/4d17967b35862d54718a)  
+[ブログカードを支える技術 - Qiita](https://qiita.com/hinastory/items/05baa8aec64a75026b3a)  

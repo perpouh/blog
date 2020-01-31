@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'VuePress Sample',
-  description: 'smaple project for VuePress',
+  title: '活動拠点',
+  description: '活動拠点です。',
   base: '/blog/',
   dest: 'docs',
   head: [
@@ -13,8 +13,20 @@ module.exports = {
       { text: 'ぱあぷう', link: '/resume/'}
     ],
     sidebar: [
-      ['/vuepress/', 'VuePress' ]
+      {
+        title: 'Vue',   // required
+        children: [
+          ['/vue/vuepress', 'VuePress'],
+          ['/vue/chat-app', 'チャットアプリ']
+        ]
+      }
     ],
     sidebarDepth: 2
-  }
+  },
+  plugins: [
+    'register-components',
+    {
+      componentsDir: './components'
+    }
+  ]
 }

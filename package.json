@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/perpouh/blog/issues"
   },
-  "homepage": "https://github.com/perpouh/blog#readme"
+  "homepage": "https://github.com/perpouh/blog#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0"
+  }
 }
