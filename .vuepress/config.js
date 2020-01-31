@@ -4,11 +4,11 @@ module.exports = {
   base: '/blog/',
   dest: 'docs',
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/icon16.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/assets/img/favicon.ico' }],
     ['meta', { name: "author", content: "perpouh" }]
   ],
   themeConfig: {
-    logo: '/images/logo.png',
+    logo: '/assets/img/logo.png',
     nav: [
       { text: 'ぱあぷう', link: '/resume/'}
     ],
