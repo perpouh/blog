@@ -2,9 +2,7 @@
 
 [9 Projects you can do to become a Frontend Master in 2020 - Medium](https://dev.to/simonholdorf/9-projects-you-can-do-to-become-a-frontend-master-in-2020-n2h)
 に触発されて[チャットアプリ](https://www.sitepoint.com/pusher-vue-real-time-chat-app/)を作りました。  
-リポジトリはこちら: [perpouh/chat-app-vue](https://github.com/perpouh/chat-app-vue)
-
-※リンクカードはデザイン含め現在作成中です
+リポジトリはこちら:  
 <link-card url="https://github.com/perpouh/chat-app-vue"/>
 
 大枠は上記記事通りなので割愛するとして、以下やってみた感想とわからなかったところの調査まとめ。

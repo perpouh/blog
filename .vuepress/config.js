@@ -24,9 +24,15 @@ module.exports = {
     sidebarDepth: 2
   },
   plugins: [
-    'register-components',
-    {
-      componentsDir: './components'
-    }
+      [
+        'google-analytics',
+        {
+          'ga': 'UA-58563875-3' // UA-00000000-0
+        }
+      ],
+      'register-components',
+      {
+        componentsDir: './components'
+      }
   ]
 }
