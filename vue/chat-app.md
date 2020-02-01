@@ -3,7 +3,13 @@
 [9 Projects you can do to become a Frontend Master in 2020 - Medium](https://dev.to/simonholdorf/9-projects-you-can-do-to-become-a-frontend-master-in-2020-n2h)
 に触発されて[チャットアプリ](https://www.sitepoint.com/pusher-vue-real-time-chat-app/)を作りました。  
 リポジトリはこちら:  
-<link-card url="https://github.com/perpouh/chat-app-vue"/>
+<link-card 
+          url="https://github.com/perpouh/chat-app-vue"
+          siteName="github.com"
+          thumbnail="https://avatars0.githubusercontent.com/u/8610298?s=400&v=4"
+          title="perpouh/chat-app-vue"
+          description="Build a Real-time Chat App with Pusher and Vue.js"
+          />
 
 大枠は上記記事通りなので割愛するとして、以下やってみた感想とわからなかったところの調査まとめ。
 

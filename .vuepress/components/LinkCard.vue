@@ -4,38 +4,19 @@
     a.hbc-link(:href="url", target="_blank")
       .hbc-card
         .hbc-contents
-          img.hbc-thumbnail(:src="ogp['og:image']")
+          img.hbc-thumbnail(:src="thumbnail")
           .hbc-text
-            .hbc-title {{ ogp['og:title'] }}
+            .hbc-title {{ title }}
             .hbc-url {{ url }}
-            .hbc-description {{ ogp['og:description'] }}
+            .hbc-description {{ description }}
         .hbc-info
-          .hbc-site-name {{ ogp['og:site_name'] }}
+          .hbc-site-name {{ siteName }}
 </template>
 
 <script>
-import axios from 'axios';
 export default{
   name: 'link-card',
-  props: ['url'],
-  data(){
-    return {
-      ogp: [],
-      favicon: "https://github.com/fluidicon.png",
-      siteName: "github.com",
-      thumbnail: "https://avatars0.githubusercontent.com/u/8610298?s=400&v=4",
-      title: "perpouh/chat-app-vue",
-      description: "Build a Real-time Chat App with Pusher and Vue.js"
-    }
-  },
-  mounted(){
-    // 思いっきりCORS出るけどgithubpagesにデプロイしたあとってどうなるんだろうか
-    axios.get(this.url).then(function(response){
-      console.log(response);
-      info = JSON.parse(response);
-      this.ogp = response.ogp;
-    });
-  }
+  props: ['url', 'thumbnail', 'siteName', 'thmubnail', 'title', 'description']
 }
 </script>
 
