@@ -14,6 +14,12 @@ module.exports = {
     ],
     sidebar: [
       {
+        title: 'VSCode',   // required
+        children: [
+          ['/vscode/kkympreviewer', 'カクヨムプレビューワ']
+        ]
+      },
+      {
         title: 'Vue',   // required
         children: [
           ['/vue/vuepress', 'VuePress'],
