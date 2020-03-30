@@ -1,3 +1,6 @@
+# anime.js試した
+最終更新日:2019年05月27日
+
 [とにかくカッコいいWebデザインを簡単に作るためのTipsとアイデア集](https://qiita.com/blue-ossan/items/0bb30f765402517fdc6d)を読んで気になったので[animate.js](https://animejs.com/)を試しました。  
   
 [pagePilingデモサイト](https://alvarotrigo.com/pagePiling/)の2ページ目の端っこのアレ↓が動いたらかわいいかなと思ったのでだいたいそんな感じを目指します。  

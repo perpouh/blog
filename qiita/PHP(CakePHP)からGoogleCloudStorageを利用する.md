@@ -1,3 +1,6 @@
+# PHP(CakePHP)からGoogleCloudStorageを利用する
+最終更新日:2015年06月02日
+
   
 ## 前提条件  
  - GCP登録済み  

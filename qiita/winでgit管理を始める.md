@@ -1,3 +1,6 @@
+# winでgit管理を始める
+最終更新日:2015年01月29日
+
   
 Mac:[Macでgit管理を始める](http://qiita.com/perpouh/items/5b8fd0c9ff05ac385a90)  
   
