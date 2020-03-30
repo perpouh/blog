@@ -1,7 +1,7 @@
 # ラスボス系後輩ヒロインAIチャットボットを作りたい・Pythonの基礎⑤
 最終更新日:2019年03月08日
 
-[前回](https://perpouh.github.io/blog//qiita/ラスボス系後輩ヒロインAIチャットボットを作りたい・Pythonの基礎④.md)の続きから行きます。  
+[前回](https://perpouh.github.io/blog/qiita/ラスボス系後輩ヒロインAIチャットボットを作りたい・Pythonの基礎④.html)の続きから行きます。  
 キングプロテアちゃんは土方さんが倒してくれました。出るんだな1ターン200万ダメージ……  
   
 ## 名前空間とスコープ  
@@ -82,7 +82,7 @@ strawberry
   
 どうかな……（感想）  
   
-以前[サンプルでanswerというメソッドを扱った時](https://perpouh.github.io/blog//qiita/ラスボス系後輩ヒロインAIチャットボットを作りたい・Pythonの基礎③.md#%E4%B8%80%E4%BA%BA%E5%89%8D%E3%81%AE%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E9%96%A2%E6%95%B0)、実はdocstringを書き込んでいました。  
+以前[サンプルでanswerというメソッドを扱った時](https://perpouh.github.io/blog/qiita/ラスボス系後輩ヒロインAIチャットボットを作りたい・Pythonの基礎③.html#%E4%B8%80%E4%BA%BA%E5%89%8D%E3%81%AE%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E9%96%A2%E6%95%B0)、実はdocstringを書き込んでいました。  
   
 ```python
 def answer():
