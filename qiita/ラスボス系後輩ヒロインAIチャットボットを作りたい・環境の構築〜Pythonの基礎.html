@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>前哨戦・VagrantにPython環境を作る | 活動拠点</title>
+    <meta name="description" content="活動拠点です。">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" type="image/png" href="/blog/assets/img/favicon.ico">
+  <meta name="author" content="perpouh">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.5ac04c86.css" as="style"><link rel="preload" href="/blog/assets/js/app.f73b78fd.js" as="script"><link rel="preload" href="/blog/assets/js/2.47cdd862.js" as="script"><link rel="preload" href="/blog/assets/js/38.ea37c48a.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.f6a1abcd.js"><link rel="prefetch" href="/blog/assets/js/11.590fc2e7.js"><link rel="prefetch" href="/blog/assets/js/12.779bcbe5.js"><link rel="prefetch" href="/blog/assets/js/13.627b8428.js"><link rel="prefetch" href="/blog/assets/js/14.3f41a354.js"><link rel="prefetch" href="/blog/assets/js/15.b112a114.js"><link rel="prefetch" href="/blog/assets/js/16.c44797aa.js"><link rel="prefetch" href="/blog/assets/js/17.3e108e4b.js"><link rel="prefetch" href="/blog/assets/js/18.6c0f18e4.js"><link rel="prefetch" href="/blog/assets/js/19.0cab5eef.js"><link rel="prefetch" href="/blog/assets/js/20.6434529d.js"><link rel="prefetch" href="/blog/assets/js/21.5cb4887f.js"><link rel="prefetch" href="/blog/assets/js/22.2f297e43.js"><link rel="prefetch" href="/blog/assets/js/23.732774f3.js"><link rel="prefetch" href="/blog/assets/js/24.624eb317.js"><link rel="prefetch" href="/blog/assets/js/25.bb15c7f3.js"><link rel="prefetch" href="/blog/assets/js/26.58c02fd8.js"><link rel="prefetch" href="/blog/assets/js/27.dff20964.js"><link rel="prefetch" href="/blog/assets/js/28.5906ae5f.js"><link rel="prefetch" href="/blog/assets/js/29.b0c6b559.js"><link rel="prefetch" href="/blog/assets/js/3.ddca8d52.js"><link rel="prefetch" href="/blog/assets/js/30.bdfc3cfa.js"><link rel="prefetch" href="/blog/assets/js/31.7d817993.js"><link rel="prefetch" href="/blog/assets/js/32.736cef22.js"><link rel="prefetch" href="/blog/assets/js/33.a78fe941.js"><link rel="prefetch" href="/blog/assets/js/34.0c84ab82.js"><link rel="prefetch" href="/blog/assets/js/35.df23f9c2.js"><link rel="prefetch" href="/blog/assets/js/36.e0610589.js"><link rel="prefetch" href="/blog/assets/js/37.863b36bb.js"><link rel="prefetch" href="/blog/assets/js/39.4dba4f42.js"><link rel="prefetch" href="/blog/assets/js/4.3e673d80.js"><link rel="prefetch" href="/blog/assets/js/40.187bc927.js"><link rel="prefetch" href="/blog/assets/js/41.a6bcf780.js"><link rel="prefetch" href="/blog/assets/js/42.412dbe13.js"><link rel="prefetch" href="/blog/assets/js/43.0d24d11f.js"><link rel="prefetch" href="/blog/assets/js/44.be1edd77.js"><link rel="prefetch" href="/blog/assets/js/45.d8c6b4df.js"><link rel="prefetch" href="/blog/assets/js/46.affcc9ba.js"><link rel="prefetch" href="/blog/assets/js/47.56377013.js"><link rel="prefetch" href="/blog/assets/js/48.9ee63eb3.js"><link rel="prefetch" href="/blog/assets/js/49.baa552dc.js"><link rel="prefetch" href="/blog/assets/js/5.d47d9495.js"><link rel="prefetch" href="/blog/assets/js/6.bd9b3016.js"><link rel="prefetch" href="/blog/assets/js/7.b2017357.js"><link rel="prefetch" href="/blog/assets/js/8.d561b4cb.js"><link rel="prefetch" href="/blog/assets/js/9.48757533.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.5ac04c86.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><img src="/blog/assets/img/logo.png" alt="活動拠点" class="logo"> <span class="site-name can-hide">活動拠点</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/resume/" class="nav-link">
+  ぱあぷう
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/resume/" class="nav-link">
+  ぱあぷう
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>VSCode</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/vscode/kkympreviewer.html" class="sidebar-link">カクヨムプレビューワ</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Vue</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="前哨戦・vagrantにpython環境を作る"><a href="#前哨戦・vagrantにpython環境を作る" class="header-anchor">#</a> 前哨戦・VagrantにPython環境を作る</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>$ vagrant init
+$ <span class="token function">vi</span> Vagrantfile
+</code></pre></div><p><a href="https://gist.github.com/perpouh/9af2c825caddcf6236a89fbcf3bc0108" target="_blank" rel="noopener noreferrer">Vagrantfile<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><br>
+※埋め込みもコードシンタックスもできなかったので（&lt;&lt;-SHELLのあたりでおかしくなる）gistのリンクだけ張っておきます。</p> <p>これで <code>vagrant up</code> 一発でpython環境ができるはずだったのですが、pyenvインストールの途中、PATH書き込みのあたりでコケてるっぽくて何だろうな……？　コピペすると動くのでちょっとよくわからない。</p> <p>でもまあとりあえずpython作業用環境が発生しました。やったね。<br>
+少なくとも今回はフォルダ共有は使わないと思ってそのように設定しました。vbguest調子悪いし。</p> <div class="language-bash extra-class"><pre class="language-bash"><code>$ python --version
+Python <span class="token number">3.6</span>.5
+</code></pre></div><h2 id="本戦・python入門"><a href="#本戦・python入門" class="header-anchor">#</a> 本戦・Python入門</h2> <p>昼休みに本屋に行って<a href="https://www.oreilly.co.jp/books/9784873117386/" target="_blank" rel="noopener noreferrer">入門Python3<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>買ってきたんですけど想像してた倍くらいの厚みがあってビビりました。500ページオーバー……鈍器……</p> <h3 id="四則演算"><a href="#四則演算" class="header-anchor">#</a> 四則演算</h3> <table><thead><tr><th>演算子</th> <th>意味</th> <th>例</th> <th>結果</th></tr></thead> <tbody><tr><td>+</td> <td>加算</td> <td>1 + 2</td> <td>3</td></tr> <tr><td>-</td> <td>減算</td> <td>1 - 2</td> <td>-1</td></tr> <tr><td>*</td> <td>乗算</td> <td>1 * 2</td> <td>2</td></tr> <tr><td>/</td> <td>浮動小数点数の除算</td> <td>1 / 2</td> <td>0.5</td></tr> <tr><td>//</td> <td>整数の除算（切り捨て）</td> <td>1 // 2</td> <td>0</td></tr> <tr><td>%</td> <td>剰余</td> <td>1 % 2</td> <td>1</td></tr> <tr><td>**</td> <td>指数</td> <td>1 ** 2</td> <td>1</td></tr></tbody></table> <h3 id="基数"><a href="#基数" class="header-anchor">#</a> 基数</h3> <p>基本的な基数は10であるが、2, 8, 16なども使用できる。</p> <div class="language- extra-class"><pre class="language-text"><code>&gt;&gt;&gt; 0b10
+2
+&gt;&gt;&gt; 0o10
+8
+&gt;&gt;&gt; 0x10
+16
+</code></pre></div><p>この表現なんかすごく久し振りに見た気がすると思って調べ直したところ、Javaすらこの記法ではないからC言語以来じつに十年ぶりの邂逅でした（OCとかC++とか履修してないので）。ぐええ。JavaScriptもこの記法ですけど使った覚えはないな……<br>
+longは無く、intは <strong>任意のサイズ</strong> である。<code>10**100**2</code> すら格納できる。強い。</p> <h3 id="文字列の連結"><a href="#文字列の連結" class="header-anchor">#</a> 文字列の連結</h3> <p>文字列の連結は <code>+</code> で行う。ただし <strong>リテラル文字列の場合は並べるだけでも連結できる</strong> 。</p> <div class="language- extra-class"><pre class="language-text"><code>&gt;&gt;&gt; &quot;Hello&quot; + &quot;World&quot;
+'HelloWorld'
+&gt;&gt;&gt; &quot;Hello&quot; &quot;World&quot;
+'HelloWorld'
+</code></pre></div><p>※シングルクォートが出力されているのはインタプリタ自動エコーのため。横着して <code>print()</code> を使っていないせいです。以下同じ。</p> <p>さらに <code>*</code> 演算子によって <strong>文字列を繰り返すことができる</strong> 。</p> <div class="language- extra-class"><pre class="language-text"><code>&gt;&gt;&gt; &quot;Ya&quot;*7
+'YaYaYaYaYaYaYa'
+</code></pre></div><p>何に使うんだろうこれ……:thinking_face:</p> <h3 id="文字列のスライス"><a href="#文字列のスライス" class="header-anchor">#</a> 文字列のスライス</h3> <p>文字列からの文字の抽出はこれもRubyと同じく <code>[]</code> を使用する。末尾の表現は <code>[-1]</code> となる。</p> <div class="language- extra-class"><pre class="language-text"><code>&gt;&gt;&gt; str = &quot;入門Python3&quot;
+&gt;&gt;&gt; str[1]
+'門'
+&gt;&gt;&gt; str[-1]
+'3'
+</code></pre></div><p><code>[start:end:step]</code> によるスライス</p> <div class="language- extra-class"><pre class="language-text"><code>&gt;&gt;&gt; str = &quot;入門Python3&quot;
+&gt;&gt;&gt; str[1:8:2]
+'門yhn'
+</code></pre></div><ul><li><code>[:]</code> は文字列の先頭から末尾まですべてを取り出す（やる意味がわからない）</li> <li><code>[start:]</code> はstartから文字列の末尾までを取り出す。</li> <li><code>[:end]</code> は文字列の先頭からend <strong>の前</strong> までを取り出す。10と指定した場合9まで。</li> <li>ステップに負の値を設定すると逆にステップしていく。</li></ul> <div class="language- extra-class"><pre class="language-text"><code>&gt;&gt;&gt; str = &quot;abcdefghijklmnopqrstuvwxyz&quot;
+&gt;&gt;&gt; str[-1::-1]
+'zyxwvutsrqponmlkjihgfedcba'
+&gt;&gt;&gt; str[-1:0:-1]
+'zyxwvutsrqponmlkjihgfedcb'
+</code></pre></div><p>なるほどendの手前までだから逆ステップでaまで遡るにはendを省略することになるのか。</p> <h3 id="splitとjoin"><a href="#splitとjoin" class="header-anchor">#</a> splitとjoin</h3> <p>このあたりはこともなし。PHPからRubyに行ったときはぎょっとしたけどRubyやってからだと違和感がない。</p> <div class="language- extra-class"><pre class="language-text"><code>&gt;&gt;&gt; &quot;a,b,c&quot;.split(',')
+['a', 'b', 'c']
+&gt;&gt;&gt; ','.join(['a','b','c'])
+'a,b,c'
+</code></pre></div><h3 id="大文字と小文字の区別、配置"><a href="#大文字と小文字の区別、配置" class="header-anchor">#</a> 大文字と小文字の区別、配置</h3> <div class="language- extra-class"><pre class="language-text"><code>&gt;&gt;&gt; str = &quot;Come, woo me, woo me, for now I am in a holiday humor.&quot;
+&gt;&gt;&gt; str.strip('.')
+'Come, woo me, woo me, for now I am in a holiday humor'
+&gt;&gt;&gt; str.capitalize()
+'Come, woo me, woo me, for now i am in a holiday humor.'
+&gt;&gt;&gt; str.title()
+'Come, Woo Me, Woo Me, For Now I Am In A Holiday Humor.'
+&gt;&gt;&gt; str.upper()
+'COME, WOO ME, WOO ME, FOR NOW I AM IN A HOLIDAY HUMOR.'
+&gt;&gt;&gt; str.lower()
+'come, woo me, woo me, for now i am in a holiday humor.'
+&gt;&gt;&gt; str.swapcase()
+'cOME, WOO ME, WOO ME, FOR NOW i AM IN A HOLIDAY HUMOR.'
+</code></pre></div><p>文章はシェイクスピア「お気に召すまま(As You Like It)」より。<br>
+ちなみに</p> <div class="language- extra-class"><pre class="language-text"><code>&gt;&gt;&gt; str = &quot;あいうえお&quot;
+&gt;&gt;&gt; str.lower()
+'あいうえお'
+</code></pre></div><p>そりゃそうか。これで「ぁぃぅぇぉ」とか出されたらびっくりするところだった（そもそもそれはlowercaseとは言わない）</p> <p>二章の終わりまで来たので一旦ここで区切ります。存外伸びてしまった。<br>
+四章のコード構造までは最低限行かなきゃいけないとして、あと二日くらい。ページ数にして100ページ弱なので多少コードいじって遊んでも収まるでしょう。<br>
+Udemyの講座の目次を参考に予定立ててたんですけど、あの講座、44分半で何をどこまでやるつもりだったのか……？</p> <p>初日感想。Pythonたのしい！好きな言語の好きなところが詰め込んである感。新鮮なのにストレスはない。すごい。手に馴染んだ書式にプラス便利なものが積んであるという感触。<br>
+入門Python3もまず読み物としてとても読みやすい、面白いです。翻訳もいいのだろうな。良きスタートになりました。</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.f73b78fd.js" defer></script><script src="/blog/assets/js/2.47cdd862.js" defer></script><script src="/blog/assets/js/38.ea37c48a.js" defer></script>
+  </body>
+</html>
