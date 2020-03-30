@@ -7,7 +7,7 @@ RSSから読みたい記事をストックする機能を入れたかったの�
 参照:[monaca公式リファレンス](http://docs.monaca.mobi/cur/ja/reference/javascript/cloud/user/)  
   
 ### 画面  
-![ログイン画面.png](/../.vuepress/public/assets/img/7e6cd89d-6678-0e15-7eb9-3e302381c87f.png "ログイン画面.png")  
+![ログイン画面.png](/blog/assets/img/7e6cd89d-6678-0e15-7eb9-3e302381c87f.png "ログイン画面.png")  
   
   
 ユーザーIDとパスワードを入れて新規登録押せば自動で登録されてログインまでできてしまうザル。  

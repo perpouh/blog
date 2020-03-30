@@ -35,7 +35,7 @@ Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type,
 これでAndroidは通った。しかしiPhoneが通らない。  
 エラーは以下のとおり。  
   
-![20150531121419.jpg](/../.vuepress/public/assets/img/9264b1c7-6c29-6784-55e0-a7eb7d6cb2b9.jpeg "20150531121419.jpg")  
+![20150531121419.jpg](/blog/assets/img/9264b1c7-6c29-6784-55e0-a7eb7d6cb2b9.jpeg "20150531121419.jpg")  
 ※220は別件なのでおかまいなく  
   
 412番エラー。Precondition Failed(前提条件失敗)。なんじゃいそりゃあ、と思ったんですが、Google先生に尋ねたところ  

@@ -83,7 +83,7 @@ setenforce 0
 ```  
   
 　さてやっとApacheエラーでもChromeエラーでもなくララベルらしきエラー画面が見えました。  
-![スクリーンショット 2016-10-05 17.48.45.png](/../.vuepress/public/assets/img/b17eca74-70ee-0a1b-e96c-8203a808070f.png "スクリーンショット 2016-10-05 17.48.45.png")  
+![スクリーンショット 2016-10-05 17.48.45.png](/blog/assets/img/b17eca74-70ee-0a1b-e96c-8203a808070f.png "スクリーンショット 2016-10-05 17.48.45.png")  
   
 ###   
   
@@ -97,6 +97,6 @@ php artisan config:clear
 
 ```  
   
-![kobito.1475657825.794071.png](/../.vuepress/public/assets/img/0f4949c3-3bd9-f211-4aff-2809c374d440.png "kobito.1475657825.794071.png")  
+![kobito.1475657825.794071.png](/blog/assets/img/0f4949c3-3bd9-f211-4aff-2809c374d440.png "kobito.1475657825.794071.png")  
   
 　やったーララベルのトップが見えました―！  

@@ -5,7 +5,7 @@
 最近、XDが便利すぎてjQueryでフロント動かすのがしんどくなってきたので、Vue導入するために勉強をはじめました。  
 昨今のjavascriptはjavascriptのくせに（※認識が古い）パッケージ管理とかが必要なくらいファイルが増えて面倒なのでDockerで動かすことにしました。昔はtableチカチカさせるだけみたいな使えない子だったのにな君。  
   
-![図](/../.vuepress/public/assets/img/a4b60c6b-b624-dbf5-ea03-c3dff924e420.png)  
+![図](/blog/assets/img/a4b60c6b-b624-dbf5-ea03-c3dff924e420.png)  
   
 <del>この図必要か？</del>  
   
