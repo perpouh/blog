@@ -27,6 +27,12 @@ module.exports = {
         ]
       },
       {
+        title: 'Rails',
+        children: [
+          ['/rails/subdomain', 'サブドメインでコントローラを振り分ける']
+        ]
+      },
+      {
         title: 'Qiita記事のサルベージ',   // required
         children: [
           ['qiita/macでgit管理をはじめる', 'macでgit管理をはじめる'],
