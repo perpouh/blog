@@ -1,6 +1,7 @@
 module.exports = {
   title: '活動拠点',
   description: '活動拠点です。',
+  base: '/blog/',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/assets/img/favicon.ico' }],
     ['meta', { name: "author", content: "perpouh" }]
