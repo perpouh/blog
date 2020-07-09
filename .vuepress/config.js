@@ -101,13 +101,13 @@ module.exports = {
           }
         ],
         feed: {
-          canonical_base: 'http://localhost:8080',
+          canonical_base: 'https://perpouh.github.io/blog/',
           rss: true,
           atom: false,
           json: false
         },
         sitemap: {
-          hostname: 'https://localhost:8080'
+          hostname: 'https://perpouh.github.io/blog/'
         }
       }
     ],
