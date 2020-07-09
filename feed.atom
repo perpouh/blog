@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://localhost:8080</id>
+    <title>活動拠点</title>
+    <updated>2020-07-09T05:24:23.839Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="http://localhost:8080"/>
+    <link rel="self" href="http://localhost:8080/feed.atom"/>
+    <subtitle>活動拠点です。</subtitle>
+    <entry>
+        <title type="html"><![CDATA[人物]]></title>
+        <id>http://localhost:8080/2020/01/29/resume/</id>
+        <link href="http://localhost:8080/2020/01/29/resume/">
+        </link>
+        <updated>2020-01-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[about]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[@nifty mobile backendクエリメモ]]></title>
+        <id>http://localhost:8080/2015/03/16/nifty-mobile-backend%E3%82%AF%E3%82%A8%E3%83%AA%E3%83%A1%E3%83%A2/</id>
+        <link href="http://localhost:8080/2015/03/16/nifty-mobile-backend%E3%82%AF%E3%82%A8%E3%83%AA%E3%83%A1%E3%83%A2/">
+        </link>
+        <updated>2015-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[@nifty mobile backendクエリメモ]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apatche2.4+MySQL5.6+PHP7をCentOS6にインストールする]]></title>
+        <id>http://localhost:8080/2017/10/24/apatche2-4-mysql5-6-php7%E3%82%92centos6%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B/</id>
+        <link href="http://localhost:8080/2017/10/24/apatche2-4-mysql5-6-php7%E3%82%92centos6%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B/">
+        </link>
+        <updated>2017-10-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apatche2.4+MySQL5.6+PHP7をCentOS6にインストールする]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS3セレクターでストライプテーブル]]></title>
+        <id>http://localhost:8080/2016/09/09/css3%E3%82%BB%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC%E3%81%A7%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%97%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB/</id>
+        <link href="http://localhost:8080/2016/09/09/css3%E3%82%BB%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC%E3%81%A7%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%97%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB/">
+        </link>
+        <updated>2016-09-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS3セレクターでストライプテーブル]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CakePHPのコントローラを階層化する]]></title>
+        <id>http://localhost:8080/2016/01/31/cakephp%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%92%E9%9A%8E%E5%B1%A4%E5%8C%96%E3%81%99%E3%82%8B/</id>
+        <link href="http://localhost:8080/2016/01/31/cakephp%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%92%E9%9A%8E%E5%B1%A4%E5%8C%96%E3%81%99%E3%82%8B/">
+        </link>
+        <updated>2016-01-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CakePHPのコントローラを階層化する]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CentOS7でLaravel開発を始める]]></title>
+        <id>http://localhost:8080/2016/10/05/centos7%E3%81%A7laravel%E9%96%8B%E7%99%BA%E3%82%92%E5%A7%8B%E3%82%81%E3%82%8B/</id>
+        <link href="http://localhost:8080/2016/10/05/centos7%E3%81%A7laravel%E9%96%8B%E7%99%BA%E3%82%92%E5%A7%8B%E3%82%81%E3%82%8B/">
+        </link>
+        <updated>2016-10-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CentOS7でLaravel開発を始める]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DockerにnginxとRailsとVueの環境を作る]]></title>
+        <id>http://localhost:8080/2019/12/16/docker%E3%81%ABnginx%E3%81%A8rails%E3%81%A8vue%E3%81%AE%E7%92%B0%E5%A2%83%E3%82%92%E4%BD%9C%E3%82%8B/</id>
+        <link href="http://localhost:8080/2019/12/16/docker%E3%81%ABnginx%E3%81%A8rails%E3%81%A8vue%E3%81%AE%E7%92%B0%E5%A2%83%E3%82%92%E4%BD%9C%E3%82%8B/">
+        </link>
+        <updated>2019-12-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[DockerにnginxとRailsとVueの環境を作る]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monaca開発入門_00]]></title>
+        <id>http://localhost:8080/2015/03/05/monaca%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-00/</id>
+        <link href="http://localhost:8080/2015/03/05/monaca%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-00/">
+        </link>
+        <updated>2015-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Monaca開発入門_00]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monaca開発入門_01]]></title>
+        <id>http://localhost:8080/2015/03/20/monaca%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-01/</id>
+        <link href="http://localhost:8080/2015/03/20/monaca%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-01/">
+        </link>
+        <updated>2015-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Monaca開発入門_01]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js開発入門_01]]></title>
+        <id>http://localhost:8080/2015/01/30/node-js%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-01/</id>
+        <link href="http://localhost:8080/2015/01/30/node-js%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-01/">
+        </link>
+        <updated>2015-01-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Node.js開発入門_01]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js開発入門_02]]></title>
+        <id>http://localhost:8080/2015/01/30/node-js%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-02/</id>
+        <link href="http://localhost:8080/2015/01/30/node-js%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-02/">
+        </link>
+        <updated>2015-01-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Node.js開発入門_02]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PHP(CakePHP)からGoogleCloudStorageを利用する]]></title>
+        <id>http://localhost:8080/2015/06/02/php-cakephp-%E3%81%8B%E3%82%89googlecloudstorage%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B/</id>
+        <link href="http://localhost:8080/2015/06/02/php-cakephp-%E3%81%8B%E3%82%89googlecloudstorage%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B/">
+        </link>
+        <updated>2015-06-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PHP(CakePHP)からGoogleCloudStorageを利用する]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qiitaの記事をGitHub Pages + VuePressに移行する]]></title>
+        <id>http://localhost:8080/2020/03/30/qiita%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92github-pages-vuepress%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%99%E3%82%8B/</id>
+        <link href="http://localhost:8080/2020/03/30/qiita%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92github-pages-vuepress%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%99%E3%82%8B/">
+        </link>
+        <updated>2020-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Qiitaの記事をGitHub Pages + VuePressに移行する]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rubyに手を付ける]]></title>
+        <id>http://localhost:8080/2017/10/25/ruby%E3%81%AB%E6%89%8B%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B/</id>
+        <link href="http://localhost:8080/2017/10/25/ruby%E3%81%AB%E6%89%8B%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B/">
+        </link>
+        <updated>2017-10-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rubyに手を付ける]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webの制作の現場で使うAngularJSデザイン入門]]></title>
+        <id>http://localhost:8080/2016/09/14/web%E3%81%AE%E5%88%B6%E4%BD%9C%E3%81%AE%E7%8F%BE%E5%A0%B4%E3%81%A7%E4%BD%BF%E3%81%86angularjs%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%85%A5%E9%96%80/</id>
+        <link href="http://localhost:8080/2016/09/14/web%E3%81%AE%E5%88%B6%E4%BD%9C%E3%81%AE%E7%8F%BE%E5%A0%B4%E3%81%A7%E4%BD%BF%E3%81%86angularjs%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%85%A5%E9%96%80/">
+        </link>
+        <updated>2016-09-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Webの制作の現場で使うAngularJSデザイン入門]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wijmo3のgridを使う]]></title>
+        <id>http://localhost:8080/2017/08/31/wijmo3%E3%81%AEgrid%E3%82%92%E4%BD%BF%E3%81%86/</id>
+        <link href="http://localhost:8080/2017/08/31/wijmo3%E3%81%AEgrid%E3%82%92%E4%BD%BF%E3%81%86/">
+        </link>
+        <updated>2017-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wijmo3のgridを使う]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Python]Codewarsで遊んだ記録]]></title>
+        <id>http://localhost:8080/2019/08/23/python-codewars%E3%81%A7%E9%81%8A%E3%82%93%E3%81%A0%E8%A8%98%E9%8C%B2/</id>
+        <link href="http://localhost:8080/2019/08/23/python-codewars%E3%81%A7%E9%81%8A%E3%82%93%E3%81%A0%E8%A8%98%E9%8C%B2/">
+        </link>
+        <updated>2019-08-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[[Python]Codewarsで遊んだ記録]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[anime.js試した]]></title>
+        <id>http://localhost:8080/2019/05/27/anime-js%E8%A9%A6%E3%81%97%E3%81%9F/</id>
+        <link href="http://localhost:8080/2019/05/27/anime-js%E8%A9%A6%E3%81%97%E3%81%9F/">
+        </link>
+        <updated>2019-05-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[anime.js試した]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[macでgit管理をはじめる]]></title>
+        <id>http://localhost:8080/2015/01/29/mac%E3%81%A7git%E7%AE%A1%E7%90%86%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B/</id>
+        <link href="http://localhost:8080/2015/01/29/mac%E3%81%A7git%E7%AE%A1%E7%90%86%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B/">
+        </link>
+        <updated>2015-01-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[macでgit管理をはじめる]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[monacaアプリからajax通信ができなくてハマった！対処法まとめ]]></title>
+        <id>http://localhost:8080/2015/05/31/monaca%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8B%E3%82%89ajax%E9%80%9A%E4%BF%A1%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%8F%E3%81%A6%E3%83%8F%E3%83%9E%E3%81%A3%E3%81%9F%EF%BC%81%E5%AF%BE%E5%87%A6%E6%B3%95%E3%81%BE%E3%81%A8%E3%82%81/</id>
+        <link href="http://localhost:8080/2015/05/31/monaca%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8B%E3%82%89ajax%E9%80%9A%E4%BF%A1%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%8F%E3%81%A6%E3%83%8F%E3%83%9E%E3%81%A3%E3%81%9F%EF%BC%81%E5%AF%BE%E5%87%A6%E6%B3%95%E3%81%BE%E3%81%A8%E3%82%81/">
+        </link>
+        <updated>2015-05-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[monacaアプリからajax通信ができなくてハマった！対処法まとめ]]></summary>
+    </entry>
+</feed>
