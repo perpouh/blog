@@ -4,7 +4,7 @@
         <title>活動拠点</title>
         <link>https://perpouh.github.io/blog/</link>
         <description>活動拠点です。</description>
-        <lastBuildDate>Thu, 09 Jul 2020 05:33:40 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jul 2020 09:57:58 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://perpouh.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
@@ -16,6 +16,13 @@
             <description><![CDATA[about]]></description>
             <enclosure url="https://perpouh.github.io/blog/$withBase(">
             </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[pythonで過去記事にfrontmatterを挿入した]]></title>
+            <link>https://perpouh.github.io/blog/2020/07/09/frontmatter/</link>
+            <guid>https://perpouh.github.io/blog/2020/07/09/frontmatter/</guid>
+            <pubDate>Thu, 09 Jul 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[道端に何か落ちてるなと思って見たらカラスの死骸だった。何年か前に同じく道端で猫の死骸を拾った（車道の真ん中に横たわっていた）ときに調べて手順を知っていたので速やかに区の道路課に通報できた。経験というのは生きるものだ。（日記）]]></description>
         </item>
         <item>
             <title><![CDATA[@nifty mobile backendクエリメモ]]></title>
@@ -151,15 +158,6 @@
             <pubDate>Thu, 29 Jan 2015 00:00:00 GMT</pubDate>
             <description><![CDATA[macでgit管理をはじめる]]></description>
             <enclosure url="https://perpouh.github.io/blog/blog/assets/img/9216ace2-2458-3723-f79c-4ca2bdb8eb42.png &quot;スクリーンショット 2015-01-28 17.03.37.png&quot;">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[monacaアプリからajax通信ができなくてハマった！対処法まとめ]]></title>
-            <link>https://perpouh.github.io/blog/2015/05/31/monaca%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8B%E3%82%89ajax%E9%80%9A%E4%BF%A1%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%8F%E3%81%A6%E3%83%8F%E3%83%9E%E3%81%A3%E3%81%9F%EF%BC%81%E5%AF%BE%E5%87%A6%E6%B3%95%E3%81%BE%E3%81%A8%E3%82%81/</link>
-            <guid>https://perpouh.github.io/blog/2015/05/31/monaca%E3%82%A2%E3%83%97%E3%83%AA%E3%81%8B%E3%82%89ajax%E9%80%9A%E4%BF%A1%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%8F%E3%81%A6%E3%83%8F%E3%83%9E%E3%81%A3%E3%81%9F%EF%BC%81%E5%AF%BE%E5%87%A6%E6%B3%95%E3%81%BE%E3%81%A8%E3%82%81/</guid>
-            <pubDate>Sun, 31 May 2015 00:00:00 GMT</pubDate>
-            <description><![CDATA[monacaアプリからajax通信ができなくてハマった！対処法まとめ]]></description>
-            <enclosure url="https://perpouh.github.io/blog/blog/assets/img/9264b1c7-6c29-6784-55e0-a7eb7d6cb2b9.jpeg &quot;20150531121419.jpg&quot;">
             </enclosure>
         </item>
     </channel>
