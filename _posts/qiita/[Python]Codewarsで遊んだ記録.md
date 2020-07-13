@@ -1,6 +1,7 @@
 ---
 description: '[Python]Codewarsで遊んだ記録'
 tags:
+  - python
 date: '2019-08-23'
 ---
 # [Python]Codewarsで遊んだ記録

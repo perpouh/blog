@@ -1,13 +1,13 @@
 <template>
   <nav
-    class="nav-links"
     v-if="userLinks.length || repoLink"
+    class="nav-links"
   >
     <!-- user links -->
     <div
-      class="nav-item"
       v-for="item in userLinks"
       :key="item.link"
+      class="nav-item"
     >
       <DropdownLink
         v-if="item.type === 'links'"
@@ -28,7 +28,7 @@
       rel="noopener noreferrer"
     >
       {{ repoLabel }}
-      <OutboundLink/>
+      <OutboundLink />
     </a>
   </nav>
 </template>
@@ -37,15 +37,16 @@
 import DropdownLink from '@theme/components/DropdownLink.vue'
 import { resolveNavLinkItem } from '../util'
 import NavLink from '@theme/components/NavLink.vue'
-
 export default {
-  components: { NavLink, DropdownLink },
-
+  name: 'NavLinks',
+  components: {
+    NavLink,
+    DropdownLink
+  },
   computed: {
     userNav () {
       return this.$themeLocaleConfig.nav || this.$site.themeConfig.nav || []
     },
-
     nav () {
       const { locales } = this.$site
       if (locales && Object.keys(locales).length > 1) {
@@ -77,7 +78,6 @@ export default {
       }
       return this.userNav
     },
-
     userLinks () {
       return (this.nav || []).map(link => {
         return Object.assign(resolveNavLinkItem(link), {
@@ -85,7 +85,6 @@ export default {
         })
       })
     },
-
     repoLink () {
       const { repo } = this.$site.themeConfig
       if (repo) {
@@ -95,13 +94,11 @@ export default {
       }
       return null
     },
-
     repoLabel () {
       if (!this.repoLink) return
       if (this.$site.themeConfig.repoLabel) {
         return this.$site.themeConfig.repoLabel
       }
-
       const repoHost = this.repoLink.match(/^https?:\/\/[^/]+/)[0]
       const platforms = ['GitHub', 'GitLab', 'Bitbucket']
       for (let i = 0; i < platforms.length; i++) {
@@ -110,7 +107,6 @@ export default {
           return platform
         }
       }
-
       return 'Source'
     }
   }
@@ -130,22 +126,14 @@ export default {
     display inline-block
     margin-left 1.5rem
     line-height 2rem
-    height: 32px;
-    width: 32px;
-    vertical-align: bottom;
-    border-radius: 16px;
-    background-image: url('/assets/img/dummy.png');
-    background-size: contain;
     &:first-child
       margin-left 0
   .repo-link
     margin-left 1.5rem
-
 @media (max-width: $MQMobile)
   .nav-links
     .nav-item, .repo-link
       margin-left 0
-
 @media (min-width: $MQMobile)
   .nav-links a
     &:hover, &.router-link-active

@@ -1,6 +1,10 @@
 ---
 description: 'DockerにnginxとRailsとVueの環境を作る'
 tags:
+  - Docker
+  - Ruby on Rails
+  - Vuejs
+  - nginx
 date: '2019-12-16'
 ---
 # DockerにnginxとRailsとVueの環境を作る

@@ -1,6 +1,7 @@
 ---
 description: 'ラスボス系後輩ヒロインAIチャットボットを作りたい・Pythonの基礎②'
 tags:
+  - python
 date: '2019-03-08'
 ---
 # ラスボス系後輩ヒロインAIチャットボットを作りたい・Pythonの基礎②

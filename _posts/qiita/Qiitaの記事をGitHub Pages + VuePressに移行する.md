@@ -1,6 +1,7 @@
 ---
 description: 'Qiitaの記事をGitHub Pages + VuePressに移行する'
 tags:
+   - python
 date: '2020-03-30'
 ---
 # Qiitaの記事をGitHub Pages + VuePressに移行する

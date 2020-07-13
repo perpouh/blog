@@ -33,6 +33,12 @@ module.exports = {
         ]
       },
       {
+        title: 'Python',
+        children: [
+          ['/_posts/python/2020-07-09-frontmatter', 'pythonで過去記事にfrontmatterを挿入した']
+        ]
+      },
+      {
         title: 'Qiita記事のサルベージ',   // required
         children: [
           ['/_posts/qiita/macでgit管理をはじめる', 'macでgit管理をはじめる'],

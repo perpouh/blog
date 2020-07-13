@@ -1,6 +1,7 @@
 ---
 description: '【Rails】今年学んだことの棚卸し'
 tags:
+   - Ruby on Rails
 date: '2019-12-27'
 ---
 # 【Rails】今年学んだことの棚卸し

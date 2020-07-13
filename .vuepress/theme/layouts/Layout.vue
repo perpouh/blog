@@ -38,8 +38,6 @@
         <router-link :to="page.path">
           <span class="title">{{ page.title }}</span><br />
         </router-link>
-        <time :datetime="page.frontmatter.date">{{ page.frontmatter.date }}</time>
-
         <span v-if="page.frontmatter.tags" class="iconfont reco-tag tags">
           <a v-for="(subItem, subIndex) in page.frontmatter.tags"
             :key="subIndex"
@@ -48,6 +46,7 @@
               #{{subItem}}
           </a>
         </span>
+        <time :datetime="page.frontmatter.date">{{ page.frontmatter.date }}</time>
       </div>
       <div>
         <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
