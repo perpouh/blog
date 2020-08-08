@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://perpouh.github.io/blog/</id>
     <title>活動拠点</title>
-    <updated>2020-07-21T07:48:50.917Z</updated>
+    <updated>2020-08-08T00:37:42.775Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://perpouh.github.io/blog/"/>
     <link rel="self" href="https://perpouh.github.io/blog/feed.atom"/>
