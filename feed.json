@@ -21,10 +21,24 @@
             "date_modified": "2020-07-20T00:00:00.000Z"
         },
         {
+            "id": "https://perpouh.github.io/blog/2020/07/27/%E6%97%A5%E8%A8%98/",
+            "url": "https://perpouh.github.io/blog/2020/07/27/%E6%97%A5%E8%A8%98/",
+            "title": "2020-07-27-日記",
+            "summary": "母語が違うとかいう話ではない。単純に、文章が書けていない。助詞も助動詞もうまく使えていないのに妙な修飾語ばかりをふんだんに盛り付けたスパゲティ。余計な語彙が身についていない分、小学生の作文の方が読みやすいのではないだろうか。妙にかっこいい（褒めていない）デザインのpptxにしっちゃかめっちゃかの日本語がずらずら並んでいると頭が痛くなる。あれほど見栄や虚飾を強く感じるものもそう滅多に無い。",
+            "date_modified": "2020-07-27T00:00:00.000Z"
+        },
+        {
+            "id": "https://perpouh.github.io/blog/2020/08/21/%E6%97%A5%E8%A8%98/",
+            "url": "https://perpouh.github.io/blog/2020/08/21/%E6%97%A5%E8%A8%98/",
+            "title": "2020-08-21-日記",
+            "summary": "そういえばアレはどうなったんですかと関連チャンネルで御老体を突いてみたら「動きなしです」と返答があり、「全社を巻き込んでアンケートを取ったのだから全社向けに連絡すべきでは？」と指摘したところ、言い訳がDMに飛んできた。",
+            "date_modified": "2020-08-21T00:00:00.000Z"
+        },
+        {
             "id": "https://perpouh.github.io/blog/2020/07/09/frontmatter/",
             "url": "https://perpouh.github.io/blog/2020/07/09/frontmatter/",
             "title": "pythonで過去記事にfrontmatterを挿入した",
-            "summary": "道端に何か落ちてるなと思って見たらカラスの死骸だった。何年か前に同じく道端で猫の死骸を拾った（車道の真ん中に横たわっていた）ときに調べて手順を知っていたので速やかに区の道路課に通報できた。経験というのは生きるものだ。（日記）",
+            "summary": "ファイルを開く\n 1行目をタイトルとして読み込む\n 2行目を最終更新日として読み込む（※2行目の最終更新日は以前の記事で挿入したもの）\n タイトルと最終更新日から生成したfrontmatterをファイル冒頭に挿入する\n    ※やってみたら挿入はできなかったので実際にはファイルの中身を全て書き直している",
             "date_modified": "2020-07-09T00:00:00.000Z"
         },
         {
@@ -134,21 +148,6 @@
             "title": "Wijmo3のgridを使う",
             "summary": "Wijmo3のgridを使う",
             "date_modified": "2017-08-31T00:00:00.000Z"
-        },
-        {
-            "id": "https://perpouh.github.io/blog/2019/08/23/python-codewars%E3%81%A7%E9%81%8A%E3%82%93%E3%81%A0%E8%A8%98%E9%8C%B2/",
-            "url": "https://perpouh.github.io/blog/2019/08/23/python-codewars%E3%81%A7%E9%81%8A%E3%82%93%E3%81%A0%E8%A8%98%E9%8C%B2/",
-            "title": "[Python]Codewarsで遊んだ記録",
-            "summary": "[Python]Codewarsで遊んだ記録",
-            "date_modified": "2019-08-23T00:00:00.000Z"
-        },
-        {
-            "id": "https://perpouh.github.io/blog/2019/05/27/anime-js%E8%A9%A6%E3%81%97%E3%81%9F/",
-            "url": "https://perpouh.github.io/blog/2019/05/27/anime-js%E8%A9%A6%E3%81%97%E3%81%9F/",
-            "title": "anime.js試した",
-            "summary": "anime.js試した",
-            "image": "https://perpouh.github.io/blog/blog/assets/img/febcbac2-6433-c1bb-25b3-9935de1a38c9.gif",
-            "date_modified": "2019-05-27T00:00:00.000Z"
         }
     ]
 }
