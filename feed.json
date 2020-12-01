@@ -35,10 +35,16 @@
             "date_modified": "2020-08-21T00:00:00.000Z"
         },
         {
+            "id": "https://perpouh.github.io/blog/2020/12/02/%E6%97%A5%E8%A8%98/",
+            "url": "https://perpouh.github.io/blog/2020/12/02/%E6%97%A5%E8%A8%98/",
+            "summary": "某一般男性の動画を見るようになってからにんにくの処理が安定した。\n今までそんなに使わなかったし無くていいものみたいに扱ってたんですが、ハマった。鶏肉のにんにく醤油炒めがおいしい。",
+            "date_modified": "2020-12-02T00:00:00.000Z"
+        },
+        {
             "id": "https://perpouh.github.io/blog/2020/07/09/frontmatter/",
             "url": "https://perpouh.github.io/blog/2020/07/09/frontmatter/",
             "title": "pythonで過去記事にfrontmatterを挿入した",
-            "summary": "ファイルを開く\n 1行目をタイトルとして読み込む\n 2行目を最終更新日として読み込む（※2行目の最終更新日は以前の記事で挿入したもの）\n タイトルと最終更新日から生成したfrontmatterをファイル冒頭に挿入する\n    ※やってみたら挿入はできなかったので実際にはファイルの中身を全て書き直している",
+            "summary": "タイトルと最終更新日から生成したfrontmatterをファイル冒頭に挿入する\n    ※やってみたら挿入はできなかったので実際にはファイルの中身を全て書き直している",
             "date_modified": "2020-07-09T00:00:00.000Z"
         },
         {
@@ -141,13 +147,6 @@
             "title": "Webの制作の現場で使うAngularJSデザイン入門",
             "summary": "Webの制作の現場で使うAngularJSデザイン入門",
             "date_modified": "2016-09-14T00:00:00.000Z"
-        },
-        {
-            "id": "https://perpouh.github.io/blog/2017/08/31/wijmo3%E3%81%AEgrid%E3%82%92%E4%BD%BF%E3%81%86/",
-            "url": "https://perpouh.github.io/blog/2017/08/31/wijmo3%E3%81%AEgrid%E3%82%92%E4%BD%BF%E3%81%86/",
-            "title": "Wijmo3のgridを使う",
-            "summary": "Wijmo3のgridを使う",
-            "date_modified": "2017-08-31T00:00:00.000Z"
         }
     ]
 }
