@@ -37,14 +37,14 @@
         {
             "id": "https://perpouh.github.io/blog/2020/12/02/%E6%97%A5%E8%A8%98/",
             "url": "https://perpouh.github.io/blog/2020/12/02/%E6%97%A5%E8%A8%98/",
-            "summary": "某一般男性の動画を見るようになってからにんにくの処理が安定した。\n今までそんなに使わなかったし無くていいものみたいに扱ってたんですが、ハマった。鶏肉のにんにく醤油炒めがおいしい。",
+            "summary": "三枚おろしはできた（中骨にだいぶ身が残ったけど）。梳き引きもまあ、できた。ただ血合い骨を取る段階で身がﾎﾞﾛｯﾎﾞﾛになった。要リベンジ。\n父（釣り趣味）曰く、「アジは難しい」とのこと。骨抜きピンセットが無いからって指で摘んで抜こうとしたのが悪かったんだけどね！",
             "date_modified": "2020-12-02T00:00:00.000Z"
         },
         {
             "id": "https://perpouh.github.io/blog/2020/07/09/frontmatter/",
             "url": "https://perpouh.github.io/blog/2020/07/09/frontmatter/",
             "title": "pythonで過去記事にfrontmatterを挿入した",
-            "summary": "タイトルと最終更新日から生成したfrontmatterをファイル冒頭に挿入する\n    ※やってみたら挿入はできなかったので実際にはファイルの中身を全て書き直している",
+            "summary": "files = os.listdir(path=current)\ndirs = [f for f in files if os.path.isdir(os.path.join(current, f))]",
             "date_modified": "2020-07-09T00:00:00.000Z"
         },
         {
