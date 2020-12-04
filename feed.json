@@ -35,16 +35,38 @@
             "date_modified": "2020-08-21T00:00:00.000Z"
         },
         {
+            "id": "https://perpouh.github.io/blog/2020/11/17/%E6%97%A5%E8%A8%98/",
+            "url": "https://perpouh.github.io/blog/2020/11/17/%E6%97%A5%E8%A8%98/",
+            "title": "2020-11-17-日記",
+            "summary": "で。\n同じエンジニアであるうちの上司は、デザイナーさんを軽んじている。悪口を言ったりするわけではない。ただ何気なしに彼らの仕事を「見てくれの調整」と言ってのけたりする。違う、ぜんぜん違う。そんなに簡単な言葉で片付けていい仕事量ではない。\nそりゃあ、実際の計算や処理はプログラムが行うものだ。見た目がどうあれ、プログラムは動く。でもそっちが本質だとは思わない。システム化するのは使いやすくするためで、使いやすさに対して誰よりも注力しているのがデザイナーさんだ。データベースがほしいだけならそれこそAccessかExcelでも使ってろという話であって、わざわざシステム化する必要はない。\n悪意はない。ただ知らないだけだ。知らないということすら知らないだけだ。知識と技術がなければその「見てくれの調整」もできないのに。",
+            "date_modified": "2020-11-17T00:00:00.000Z"
+        },
+        {
             "id": "https://perpouh.github.io/blog/2020/12/02/%E6%97%A5%E8%A8%98/",
             "url": "https://perpouh.github.io/blog/2020/12/02/%E6%97%A5%E8%A8%98/",
-            "summary": "三枚おろしはできた（中骨にだいぶ身が残ったけど）。梳き引きもまあ、できた。ただ血合い骨を取る段階で身がﾎﾞﾛｯﾎﾞﾛになった。要リベンジ。\n父（釣り趣味）曰く、「アジは難しい」とのこと。骨抜きピンセットが無いからって指で摘んで抜こうとしたのが悪かったんだけどね！",
+            "title": "今年の料理の総括",
+            "summary": "見切り品なので入念に火を通して、バター醤油で食べた。サザエ、食べたのは初めてだったんですけど、身がしっかりしてて味が濃くてよかった。",
             "date_modified": "2020-12-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://perpouh.github.io/blog/2020/12/03/%E6%97%A5%E8%A8%98/",
+            "url": "https://perpouh.github.io/blog/2020/12/03/%E6%97%A5%E8%A8%98/",
+            "title": "雑に総括すると私は建前だけを受け取って生きているという話",
+            "summary": "これをやっていると怒るタイミングを逃すのでそこそこ損をするのだけど（瞬間湯沸かし器みたいに怒れた方が得な場面は実際多い）、その程度の損は引き受けてやる。散々考えて、いや許せないなとなったら心のスタンプカードにスタンプを捺し、ある程度溜まったらその人に見切りをつけるのである。",
+            "date_modified": "2020-12-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://perpouh.github.io/blog/2020/12/04/%E6%97%A5%E8%A8%98/",
+            "url": "https://perpouh.github.io/blog/2020/12/04/%E6%97%A5%E8%A8%98/",
+            "title": "近況",
+            "summary": "その点BtoCだとユーザーが付くかどうかもわからないのがネック。サービス開始前にサ終するソシャゲとか見てると胃が痛い。せっかく作ったものが……日の目を見ない……\nその点だけ言えば個人開発は（少々の赤字を出せば）公開だけはできるわけで、一番いいのは個人開発でバズってがっぽがっぽっていう展開ですね。確定申告で青褪めるくらい稼いでみたいものだわ。",
+            "date_modified": "2020-12-04T00:00:00.000Z"
         },
         {
             "id": "https://perpouh.github.io/blog/2020/07/09/frontmatter/",
             "url": "https://perpouh.github.io/blog/2020/07/09/frontmatter/",
             "title": "pythonで過去記事にfrontmatterを挿入した",
-            "summary": "files = os.listdir(path=current)\ndirs = [f for f in files if os.path.isdir(os.path.join(current, f))]",
+            "summary": "\"\"\"\n    fp.close()",
             "date_modified": "2020-07-09T00:00:00.000Z"
         },
         {
@@ -126,27 +148,6 @@
             "title": "PHP(CakePHP)からGoogleCloudStorageを利用する",
             "summary": "PHP(CakePHP)からGoogleCloudStorageを利用する",
             "date_modified": "2015-06-02T00:00:00.000Z"
-        },
-        {
-            "id": "https://perpouh.github.io/blog/2020/03/30/qiita%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92github-pages-vuepress%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%99%E3%82%8B/",
-            "url": "https://perpouh.github.io/blog/2020/03/30/qiita%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92github-pages-vuepress%E3%81%AB%E7%A7%BB%E8%A1%8C%E3%81%99%E3%82%8B/",
-            "title": "Qiitaの記事をGitHub Pages + VuePressに移行する",
-            "summary": "Qiitaの記事をGitHub Pages + VuePressに移行する",
-            "date_modified": "2020-03-30T00:00:00.000Z"
-        },
-        {
-            "id": "https://perpouh.github.io/blog/2017/10/25/ruby%E3%81%AB%E6%89%8B%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B/",
-            "url": "https://perpouh.github.io/blog/2017/10/25/ruby%E3%81%AB%E6%89%8B%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B/",
-            "title": "Rubyに手を付ける",
-            "summary": "Rubyに手を付ける",
-            "date_modified": "2017-10-25T00:00:00.000Z"
-        },
-        {
-            "id": "https://perpouh.github.io/blog/2016/09/14/web%E3%81%AE%E5%88%B6%E4%BD%9C%E3%81%AE%E7%8F%BE%E5%A0%B4%E3%81%A7%E4%BD%BF%E3%81%86angularjs%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%85%A5%E9%96%80/",
-            "url": "https://perpouh.github.io/blog/2016/09/14/web%E3%81%AE%E5%88%B6%E4%BD%9C%E3%81%AE%E7%8F%BE%E5%A0%B4%E3%81%A7%E4%BD%BF%E3%81%86angularjs%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%85%A5%E9%96%80/",
-            "title": "Webの制作の現場で使うAngularJSデザイン入門",
-            "summary": "Webの制作の現場で使うAngularJSデザイン入門",
-            "date_modified": "2016-09-14T00:00:00.000Z"
         }
     ]
 }
