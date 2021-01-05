@@ -4,7 +4,7 @@
         <title>活動拠点</title>
         <link>https://perpouh.github.io/blog/</link>
         <description>活動拠点です。</description>
-        <lastBuildDate>Fri, 18 Dec 2020 08:45:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Jan 2021 20:12:55 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://perpouh.github.io/blog/feed.atom" rel="self" type="application/rss+xml"/>
