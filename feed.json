@@ -63,17 +63,10 @@
             "date_modified": "2020-12-04T00:00:00.000Z"
         },
         {
-            "id": "https://perpouh.github.io/blog/2020/12/18/%E6%97%A5%E8%A8%98/",
-            "url": "https://perpouh.github.io/blog/2020/12/18/%E6%97%A5%E8%A8%98/",
-            "title": "mohikanzに入った経緯と感想",
-            "summary": "あと、TwitterよりSlackの方が就業中にも見やすい。基本はスター付きチャンネルだけが見える状態になっており、あたかもAWSやDockerの話題にアンテナを立てているように偽装しています。いや偽装ではなく実際に目を通してもいるのですが、発言は専ら #tsurai か #anonymous なので。",
-            "date_modified": "2020-12-18T00:00:00.000Z"
-        },
-        {
             "id": "https://perpouh.github.io/blog/2021/01/13/%E6%97%A5%E8%A8%98/",
             "url": "https://perpouh.github.io/blog/2021/01/13/%E6%97%A5%E8%A8%98/",
             "title": "2021-01-13-日記",
-            "summary": "なんで「会社の同僚」とかいう選んだわけでもない相手とそんな話をせにゃならんのか……デフォルトが暗い人間なので人と明るい雑談をしようとしたら人格をまるごとひとつ作成するくらいの労が発生してしまう。明るい過去も未来の展望も人に話せる趣味も何もない。世の中、過去や未来が光でいっぱいみたいな人間ばっかりじゃないんですよ。過去の話も未来の話もお断りだ。勘弁してくれ。",
+            "summary": "雑談、というか人との会話、「訊かれたことに答える」以外のことができないので、結果的に自分の話ばっかりで人の話に興味がない人みたいになってしまう。人の話に興味がないのは否定しない（無個性なおっさんのつまらん自分語りに興味なんかあるわけねーだろ）けど、それ以上に、人に踏み込むことが嫌いなんだ。共通のモノの話ならできる、コンテンツの話ならできる、でも人間の話はできない。他の人が平気で人の過去やすみかについて訊いているのを聞くとひやひやする。そんなところ、私は絶対に触れられたくない。自分がされたくないから人にもしたくない。触れられないように会話をコントロールすることはある程度できるけど、その分疲れる。\nなんで「会社の同僚」とかいう選んだわけでもない相手とそんな話をせにゃならんのか……デフォルトが暗い人間なので人と明るい雑談をしようとしたら人格をまるごとひとつ作成するくらいの労が発生してしまう。明るい過去も未来の展望も人に話せる趣味も何もない。世の中、過去や未来が光でいっぱいみたいな人間ばっかりじゃないんですよ。過去の話も未来の話もお断りだ。勘弁してくれ。",
             "date_modified": "2021-01-13T00:00:00.000Z"
         },
         {
@@ -111,6 +104,13 @@
             "date_modified": "2016-01-31T00:00:00.000Z"
         },
         {
+            "id": "https://perpouh.github.io/blog/2020/12/18/%E6%97%A5%E8%A8%98/",
+            "url": "https://perpouh.github.io/blog/2020/12/18/%E6%97%A5%E8%A8%98/",
+            "title": "mohikanzに入った経緯と感想",
+            "summary": "この記事はmohikanz Advent Calender12/18の記事になります。\nmohikanz に関しては こちら をご覧ください。",
+            "date_modified": "2020-12-18T00:00:00.000Z"
+        },
+        {
             "id": "https://perpouh.github.io/blog/2016/10/05/centos7%E3%81%A7laravel%E9%96%8B%E7%99%BA%E3%82%92%E5%A7%8B%E3%82%81%E3%82%8B/",
             "url": "https://perpouh.github.io/blog/2016/10/05/centos7%E3%81%A7laravel%E9%96%8B%E7%99%BA%E3%82%92%E5%A7%8B%E3%82%81%E3%82%8B/",
             "title": "CentOS7でLaravel開発を始める",
@@ -119,19 +119,19 @@
             "date_modified": "2016-10-05T00:00:00.000Z"
         },
         {
+            "id": "https://perpouh.github.io/blog/2015/03/05/monaca%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-00/",
+            "url": "https://perpouh.github.io/blog/2015/03/05/monaca%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-00/",
+            "title": "Monaca開発入門_00",
+            "summary": "Monaca開発入門_00",
+            "date_modified": "2015-03-05T00:00:00.000Z"
+        },
+        {
             "id": "https://perpouh.github.io/blog/2019/12/16/docker%E3%81%ABnginx%E3%81%A8rails%E3%81%A8vue%E3%81%AE%E7%92%B0%E5%A2%83%E3%82%92%E4%BD%9C%E3%82%8B/",
             "url": "https://perpouh.github.io/blog/2019/12/16/docker%E3%81%ABnginx%E3%81%A8rails%E3%81%A8vue%E3%81%AE%E7%92%B0%E5%A2%83%E3%82%92%E4%BD%9C%E3%82%8B/",
             "title": "DockerにnginxとRailsとVueの環境を作る",
             "summary": "DockerにnginxとRailsとVueの環境を作る",
             "image": "https://perpouh.github.io/blog/blog/assets/img/a4b60c6b-b624-dbf5-ea03-c3dff924e420.png",
             "date_modified": "2019-12-16T00:00:00.000Z"
-        },
-        {
-            "id": "https://perpouh.github.io/blog/2015/03/05/monaca%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-00/",
-            "url": "https://perpouh.github.io/blog/2015/03/05/monaca%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-00/",
-            "title": "Monaca開発入門_00",
-            "summary": "Monaca開発入門_00",
-            "date_modified": "2015-03-05T00:00:00.000Z"
         },
         {
             "id": "https://perpouh.github.io/blog/2015/03/20/monaca%E9%96%8B%E7%99%BA%E5%85%A5%E9%96%80-01/",
