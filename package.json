@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev",
+    "build": "vuepress build"
   },
   "repository": {
     "type": "git",
@@ -17,18 +19,18 @@
   },
   "homepage": "https://github.com/perpouh/blog#readme",
   "dependencies": {
-    "@vuepress/plugin-google-analytics": "^1.4.1",
-    "acorn": ">=7.1.1",
-    "axios": "^0.21.1",
-    "pug": "^2.0.4",
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "acorn": ">=8.8.1",
+    "axios": "^1.2.1",
+    "pug": "^3.0.2",
     "pug-loader": "^2.4.0",
-    "pug-plain-loader": "^1.0.0"
+    "pug-plain-loader": "^1.1.0"
   },
   "devDependencies": {
-    "@vuepress/plugin-blog": "^1.9.2",
-    "moment": "^2.27.0",
-    "sass": "^1.26.10",
-    "sass-loader": "^9.0.2",
-    "vuepress": "^1.5.2"
+    "@vuepress/plugin-blog": "^1.9.4",
+    "moment": "^2.29.4",
+    "sass": "^1.57.0",
+    "sass-loader": "10",
+    "vuepress": "^1.9.7"
   }
 }
