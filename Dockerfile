@@ -1,18 +1,21 @@
-FROM node:10.16.0-alpine
+FROM python:3.11-slim
 
+# 必要なライブラリインストール（obsidian-html）
+RUN pip install obsidianhtml
+
+# 作業ディレクトリの設定
 WORKDIR /app
 
-RUN apk update && \
-    apk add git && \
-    apk add --no-cache curl && \
-    curl -o- -L https://yarnpkg.com/install.sh | sh
+# Markdownファイルと設定ファイルのコピー
+COPY . /app
 
-ENV PATH $HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH
+# HTML生成（必要に応じてコマンド修正）
+RUN mkdir -p /app/output && \
+    obsidianhtml convert -i /app/config.yml
 
-# ホットリロード
-ENV CHOKIDAR_USEPOLLING=true
-RUN yarn global add vuepress
+# ポートを開ける
+EXPOSE 8000
 
-# EXPOSE 8080
-
-CMD ["/bin/sh"]
+# HTMLディレクトリで静的サーバ起動
+# CMD ["python", "-m", "http.server", "8000", "--directory", "/app/output"]
+CMD ["obsidianhtml", "serve", "--directory", "output/html", "--port", "8000"]
