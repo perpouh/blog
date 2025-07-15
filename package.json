@@ -21,7 +21,7 @@
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.9.7",
     "acorn": ">=8.8.1",
-    "axios": "^1.2.1",
+    "axios": "^0.30.0",
     "pug": "^3.0.2",
     "pug-loader": "^2.4.0",
     "pug-plain-loader": "^1.1.0"
