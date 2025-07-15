@@ -11,7 +11,7 @@ COPY . /app
 
 # HTML生成（必要に応じてコマンド修正）
 RUN mkdir -p /app/output && \
-    obsidianhtml convert -i /app/config.yml
+    obsidianhtml convert -i /app/config.local.yml
 
 # ポートを開ける
 EXPOSE 8000

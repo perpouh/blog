@@ -4,15 +4,29 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: build
-      run: npm install && npx vuepress build
-    - name: Deploy
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install obsidianhtml
+    
+    - name: Create output directory
+      run: mkdir -p output
+    
+    - name: Build HTML
+      run: obsidianhtml convert -i config.yml
+    
+    - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        publish_dir: ./docs
+        publish_dir: ./output/html

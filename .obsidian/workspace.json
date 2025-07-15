@@ -8,33 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "73d7bc289b67a7c4",
+            "id": "e9e9cc51dde93efd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "タグ規則.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Index"
+              "title": "タグ規則"
             }
           }
         ]
       },
       {
-        "id": "f849d6d171080e80",
+        "id": "89715ffea6f8e03d",
         "type": "tabs",
         "children": [
           {
-            "id": "943b5015cda5781a",
+            "id": "d9a941010030f224",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "markdown",
+              "state": {
+                "file": "articles/2025-07-13.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-13"
             }
           }
         ]
@@ -69,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#project-alpha",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,17 +188,46 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "73d7bc289b67a7c4",
+  "active": "e9e9cc51dde93efd",
   "lastOpenFiles": [
-    "Daily/2025-07-03.md",
-    "Template/Daily.md",
-    "Index.md",
-    "Attachments/Campus",
-    "Attachments/Image",
-    "Attachments",
-    "Daily",
-    "Template/Atte",
-    "Template",
-    "Welcome.md"
+    "output/html/articles/2025-07-13.html",
+    "output/html/attachments/Image/ユーザー登録フロー.drawio.png",
+    "output/html/attachments/Image",
+    "output/html/attachments",
+    "output/html/articles/2025-07-12.html",
+    "output/html/articles/2025-07-08.html",
+    "output/md/articles/2025-07-13.md",
+    "output/md/attachments/Image/ユーザー登録フロー.drawio.png",
+    "output/md/attachments/Image",
+    "output/md/attachments",
+    "output/md/articles/2025-07-12.md",
+    "output/md/articles/2025-07-08.md",
+    "output/mod/log.resources",
+    "output/mod/excluded_files_by_metadata.json",
+    "output/mod/index/metadata.json",
+    "output/mod/index/markdown_files.json",
+    "articles/2025-07-13.md",
+    "articles/2025-07-12.md",
+    "articles/2025-07-08.md",
+    "articles/index.md",
+    "attachments/Image/ユーザー登録フロー.drawio.png",
+    "タグ規則.md",
+    "template/Tech-New.md",
+    "template/Tech.md",
+    "template/Slug.md",
+    "template/Daily.md",
+    "articles/f8e5d123c47646.md",
+    "articles/ドキュメント駆動開発を試しているログ.md",
+    "output/md/articles/73204b53d80123.md",
+    "articles/73204b53d80123.md",
+    "articles/Index.md",
+    "Template/Slug.md",
+    "Template/Tech.md",
+    "Template/Tech-New.md",
+    "Daily/2025-07-05.md",
+    "Daily/2025-07-07.md",
+    "Daily/2025-07-04.md",
+    "Daily/2025-07-06.md",
+    "Index.md"
   ]
 }
