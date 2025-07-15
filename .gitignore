@@ -1,6 +1,2 @@
-.vscode
-node_modules
-gh-pages
-gh-pages.pub
-.vuepress/dist
-docs
+output/**/*
+node_modules/**/*

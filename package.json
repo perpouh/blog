@@ -1,36 +1,5 @@
 {
-  "name": "vuepress",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev",
-    "build": "vuepress build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://perpouh@github.com/perpouh/blog.git"
-  },
-  "author": "perpouh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/perpouh/blog/issues"
-  },
-  "homepage": "https://github.com/perpouh/blog#readme",
   "dependencies": {
-    "@vuepress/plugin-google-analytics": "^1.9.7",
-    "acorn": ">=8.8.1",
-    "axios": "^1.2.1",
-    "pug": "^3.0.2",
-    "pug-loader": "^2.4.0",
-    "pug-plain-loader": "^1.1.0"
-  },
-  "devDependencies": {
-    "@vuepress/plugin-blog": "^1.9.4",
-    "moment": "^2.29.4",
-    "sass": "^1.57.0",
-    "sass-loader": "10",
-    "vuepress": "^1.9.7"
+    "zenn-cli": "^0.2.1"
   }
 }
