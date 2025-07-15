@@ -21,6 +21,9 @@ jobs:
     
     - name: Create output directory
       run: mkdir -p output
+
+    - name: Debug
+      run: pwd
     
     - name: Build HTML
       run: obsidianhtml convert -i config.yml
