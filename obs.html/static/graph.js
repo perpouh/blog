@@ -4,7 +4,7 @@ import * as grapher_2d from './graphers/2d.js';
 import * as grapher_3d from './graphers/3d.js';
 
 const CONFIGURED_HTML_URL_PREFIX = '';
-const URL_MODE = "absolute";
+const URL_MODE = "relative";
 
 var graphers = [
 	{'id': '2d', 'name': '2d', 'module': grapher_2d},
