@@ -1,6 +1,9 @@
 # Blog
 
-このリポジトリは私の個人的な日記・ブログです。Obsidianで管理されたMarkdownファイルをobsidianhtmlでビルドし、GitHub Pagesで静的ホスティングしています。
+このリポジトリは私の個人的な日記・ブログです。Obsidianで管理されたMarkdownファイルをobsidianhtmlでビルドし、GitHub Pagesで静的ホスティングしています。  
+もうちょっと技術寄りでもうちょっとちゃんと書くやつ: [perpouh/zenn](https://github.com/perpouh/zenn)
+
+[![pages-build-deployment](https://github.com/perpouh/blog/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/perpouh/blog/actions/workflows/pages/pages-build-deployment)
 
 ## 📁 プロジェクト構造
 
