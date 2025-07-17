@@ -315,7 +315,7 @@ toggles:
   # Note: This is only useful if you want to open the html locally on your machine without using a webserver
   #  and is generally not advised. This will also disable all features that need a webserver to function
   #  such as the graph view.
-  relative_path_html: False
+  relative_path_html: True
 
   # Do not rewrite links to open them as tabs
   # no_tabs: '<REMOVED>'
