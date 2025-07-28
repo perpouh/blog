@@ -1,3 +1,5 @@
 [
-  "dataview"
+  "dataview",
+  "progress-tracker",
+  "task-board"
 ]

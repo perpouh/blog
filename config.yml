@@ -237,7 +237,7 @@ md_source_host_urls: []
 
 # Will be inputted into the Html template as page title
 # Not used anywhere else atm.
-site_name: 'Obsidian-Html/Notes'
+site_name: 'Perpouh/Diary'
 
 # Use when deploying to https://mydomain.com/html_prefix/ instead of https://mydomain.com/
 # use '/html_prefix' (prepend slash, no slash at the end)
