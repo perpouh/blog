@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/2025-08-03.md",
+                "file": "other/カジュアル面談質問リスト.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-03"
+              "title": "カジュアル面談質問リスト"
             }
           }
         ]
@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
       "canvas:新規キャンバスを作成": false,
@@ -170,14 +171,19 @@
   },
   "active": "d9a941010030f224",
   "lastOpenFiles": [
+    "articles/index.md",
+    "other",
+    "articles/2025-08-05.md",
+    "articles/2025-08-18.md",
+    "articles/2025-08-06.md",
+    "books/レガシーコード改善ガイド.md",
+    "books/ソフトウェアテスト徹底指南書.md",
+    "books/SQLアンチパターン 第二版.md",
+    "articles/2025-08-03.md",
+    "books/index.md",
     "articles/2025-07-28.md",
     "books/達人プログラマー 第二版.md",
-    "books/index.md",
-    "books/SQLアンチパターン 第二版.md",
     "articles/2025-07-27.md",
-    "books/ソフトウェアテスト徹底指南書.md",
-    "books/レガシーコード改善ガイド.md",
-    "articles/index.md",
     "articles/2025-07-21.md",
     "articles/2025-07-25.md",
     "articles/().md",
@@ -198,16 +204,10 @@
     "output/md/articles/2025-07-12.md",
     "output/md/articles/2025-07-08.md",
     "output/mod/log.resources",
-    "output/mod/excluded_files_by_metadata.json",
     "articles/2025-07-12.md",
     "attachments/Image/ユーザー登録フロー.drawio.png",
     "template/Tech-New.md",
     "template/Tech.md",
-    "template/Slug.md",
-    "template/Daily.md",
-    "articles/f8e5d123c47646.md",
-    "articles/ドキュメント駆動開発を試しているログ.md",
-    "output/md/articles/73204b53d80123.md",
-    "articles/73204b53d80123.md"
+    "template/Slug.md"
   ]
 }
